@@ -6,7 +6,7 @@
       "name": "system",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "None",
-      "tool_version": "2021.1",
+      "tool_version": "2021.1.1",
       "validated": "true"
     },
     "design_tree": {

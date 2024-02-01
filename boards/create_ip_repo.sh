@@ -16,11 +16,11 @@ print_usage () {
 
 print_usage
 
-if [ "$#" -lt 1 ]; then
-    exit 1
-fi
+# if [ "$#" -lt 1 ]; then
+#     exit 1
+# fi
 
-XILINX_DIR=$1
+XILINX_DIR=/opt/Xilinx/
 
 start_to_write=0
 mkdir -p ip_config

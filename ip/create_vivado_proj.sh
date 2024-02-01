@@ -17,12 +17,12 @@ print_usage () {
 
 print_usage
 
-if [ "$#" -lt 2 ]; then
-    exit 1
-fi
+# if [ "$#" -lt 2 ]; then
+#     exit 1
+# fi
 
-XILINX_DIR=$1
-TCL_FILENAME=$2
+XILINX_DIR=/opt/Xilinx/
+TCL_FILENAME=$1
 
 echo XILINX_DIR $XILINX_DIR
 echo TCL_FILENAME $TCL_FILENAME
@@ -43,7 +43,7 @@ fi
 
 source $XILINX_DIR/Vivado/2021.1/settings64.sh
 
-ARG1=""
+ARG1="zed_fmcs2"
 ARG2=""
 ARG3=""
 ARG4=""
