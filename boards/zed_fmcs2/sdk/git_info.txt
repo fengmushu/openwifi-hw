@@ -1,0 +1,47 @@
+openwifi-hw-git-branch
+* develop-zedfmcs2
+  master
+ 
+openwifi-hw-git-commit
+commit 476cf682bcf1aceab6f204b5bd116578dbda2bb0
+Author: ken <fengmushu@gmail.com>
+Date:   Thu Feb 1 13:11:04 2024 +0800
+
+    .gitignore added
+
+commit b6462369d0f0655fa40aef7f65868ee6a282822e
+Author: ken <fengmushu@gmail.com>
+Date:   Thu Feb 1 13:08:20 2024 +0800
+
+    zed update to 2021.1
+
+commit 900aa8f4c330d047660e10ac871fff922f44aa98
+Author: Xianjun Jiao <xianjun.jiao@ugent.be>
+Date:   Fri Nov 17 17:02:04 2023 +0100
+
+    track openofdm_rx
+ 
+openofdm_rx-git-branch
+* (头指针分离于 39cec9f)
+  master
+  zed-fmcomms3-ebz
+ 
+openofdm_rx-git-commit
+commit 39cec9f3ecf3d67069461a3e2bb85d5594712d05
+Author: Wei Chaochen <1530604142@qq.com>
+Date:   Tue Apr 11 20:01:26 2023 +0800
+
+    parse borad for e310v2
+
+commit 747101dca8d00b4d0a99bd07dba647cd49948d04
+Author: Xianjun Jiao <xianjun.jiao@ugent.be>
+Date:   Fri Feb 3 15:44:42 2023 +0100
+
+    Update the testbench for signal_watchdog (with eq monitor)
+
+commit 1e8ba3609b60340c1cf0a0c348f2b020ded20920
+Author: Xianjun Jiao <xianjun.jiao@ugent.be>
+Date:   Fri Feb 3 15:43:54 2023 +0100
+
+    Connect signal_watchdog (with eq monitor) in openofdm_rx
+ 
